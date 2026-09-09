@@ -1134,7 +1134,7 @@ I18N.fr.completionText = (count, label, errors, errorWord, closing) =>
 I18N.ca.completionText = (count, label, errors, errorWord, closing) =>
   `Has col·locat els ${count} ${label}, amb ${errors} ${errorWord}. ${closing}`;
 
-let currentLang = 'en';
+let currentLang = 'ca';
 function t(key, ...args){
   const entry = (I18N[currentLang] && I18N[currentLang][key] !== undefined)
     ? I18N[currentLang][key]
